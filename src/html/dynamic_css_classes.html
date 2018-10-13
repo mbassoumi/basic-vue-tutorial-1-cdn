@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VueJS Tutorials</title>
+    <link href="../../styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+</head>
+<body>
+
+<div id="dynamic-css-dev">
+
+    <h1>Dynamic CSS</h1>
+
+    <h2>Example 1</h2>
+
+    <div @click="revertAvailable" :class="{available: available}">
+        <span>Click on me</span>
+    </div>
+
+    <h2>Example 2</h2>
+
+    <button @click="revertAvailable">Toggle Available</button>
+    <button @click="revertNearby">Toggle Nearby</button>
+    <div :class="compClasses">
+        <span>Click on me</span>
+    </div>
+
+
+    <a href="../../index.html">Index</a>
+</div>
+
+<script src="../js/dynamic_css_classes.js"></script>
+
+
+</body>
+</html>

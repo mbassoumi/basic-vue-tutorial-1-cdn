@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VueJS Tutorials</title>
+    <link href="../../styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+</head>
+<body>
+
+<div id="events-dev">
+    <h1>Conditionals</h1>
+
+    <button @click="error = !error">Toggle Error</button>
+    <button @click="success = !success">Toggle Success</button>
+
+    <p v-if="error">Error is true</p>
+    <p v-else-if="success">Success is true</p>
+
+    <a href="../../index.html">Index</a>
+</div>
+
+<script src="../js/conditionals.js"></script>
+
+
+</body>
+</html>

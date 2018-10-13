@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VueJS Tutorials</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+</head>
+<body>
+
+<div id="vue-app">
+    <h1>{{greet('afternoon')}}</h1>
+    <a :href="website">This is facebook link</a>
+    <input type="text" :value="name">
+    <p>Name: {{name}}</p>
+    <p>Job: {{job}}</p>
+    <p v-html="websiteTag"></p>
+    <h1>
+        <a href="src/html/events.html">Events</a>
+    </h1>
+    <h1>
+        <a href="src/html/computed_properties.html">Computed Properties</a>
+    </h1>
+    <h1>
+        <a href="src/html/dynamic_css_classes.html">Dynamic CSS Classes</a>
+    </h1>
+    <h1>
+        <a href="src/html/conditionals.html">Conditionals</a>
+    </h1>
+    <h1>
+        <a href="src/html/loop.html">Loops</a>
+    </h1>
+    <h1>
+        <a href="src/html/bag_game.html">Bag Game</a>
+    </h1>
+    <h1>
+        <a href="src/html/component.html">Component</a>
+    </h1>
+    <h1>
+        <a href="src/html/refs.html">Refs</a>
+    </h1>
+
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
